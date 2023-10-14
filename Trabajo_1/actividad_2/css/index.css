@@ -1,0 +1,27 @@
+
+body {
+    text-align: center;
+    font-family: Arial, sans-serif; 
+}
+
+#cronometro {
+    font-size: 2em;
+    margin: 15px
+}
+
+button {
+    font-size: 1.2em;
+    margin: 10px;
+    background-color:#bc4ed8;
+    color: white;
+    cursor: pointer;
+}
+
+.Cuadrado {
+    width: 430px;
+    height: 200px;
+    margin: 100px auto;
+    background: #fdcae1;
+    border-radius: 9%;
+   
+}
