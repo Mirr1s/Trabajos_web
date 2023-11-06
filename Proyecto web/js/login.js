@@ -12,3 +12,7 @@ document.getElementById("loginButton").addEventListener("click", function() {
         document.getElementById("loginMessage").textContent = "Credenciales incorrectas. Inténtalo de nuevo.";
     }
 });
+
+document.getElementById("registerButton").addEventListener("click", function(){
+    window.location.href = "registrar.html"
+})
