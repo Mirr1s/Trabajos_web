@@ -19,6 +19,7 @@
                     <li><a href="./html/Nosotros.html">Nosotros</a></li>
 
                     <li><a href="./html/contacto.html">contacto</a></li>
+                    <li><a href="login.html">Cerrar sesión</a></li>
                 </ul>
             </div>
             <div id="showcase" class="py-80">
@@ -42,6 +43,34 @@
         <a href="./html/contacto.html" class="btn btn-dark">Hacer reserva</a>
     </div>
     </section>
+<section id="barra" class="py-100">
+    
+    <div class="city-gallery">
+        <button class="nav-button prev-button" onclick="moveSlider(-1)">◀</button>
+        <div class="slider">
+            <div class="city-card">
+                <img src="media/bogota.jpeg" alt="París">
+                <p>Bogotá</p>
+            </div>
+            <div class="city-card">
+                <img src="media/cali.jpeg" alt="Nueva York">
+                <p>Cali</p>
+            </div>
+            <div class="city-card">
+                <img src="media/cartagena.jpeg" alt="Tokio">
+                <p>Cartagena</p>
+            </div>
+            <div class="city-card">
+                <img src="media/medellin.jpeg" alt="Tokio">
+                <p>Medellín</p>
+            </div>
+           
+            <!-- Agrega más ciudades aquí -->
+        </div>
+        <button class="nav-button next-button" onclick="moveSlider(1)">▶</button>
+    </div>
+</section>
+
     <section id="funciones">
         <div class="box funciones-1">
             <h4>Bogotá</h4>
@@ -75,6 +104,6 @@
     <footer id="pie_de_pag">
         <p>&copy; 2023 Hotel Boutique Gold</p>
     </footer>
-
+    <script src="js/index.js"></script>
 </body>
 </html>
