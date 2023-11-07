@@ -14,17 +14,9 @@ function moveSlider(direction) {
         }
     }
 
-    if (currentIndex === 0) {
-        document.querySelector('.prev-button').style.visibility = 'hidden';
-    } else {
-        document.querySelector('.prev-button').style.visibility = 'visible';
-    }
-
-    if (currentIndex === numCityCards - 1) {
-        document.querySelector('.next-button').style.visibility = 'hidden';
-    } else {
-        document.querySelector('.next-button').style.visibility = 'visible';
-    }
+    // Deshabilitar los botones cuando no se pueden usar
+    document.querySelector('.prev-button').disabled = currentIndex === 0;
+    document.querySelector('.next-button').disabled = currentIndex === numCityCards - 1;
 
     const offset = -currentIndex * 150; // 300px es el nuevo ancho de cada cuadro
     slider.style.transform = `translateX(${offset}px)`;
