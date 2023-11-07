@@ -66,8 +66,9 @@ a{
     text-align: center;
     padding: 50px;
     height: 250px;
-    
-    
+}
+
+.clr {clear: both;
 }
 
 /* Barra de navegación*/
@@ -241,8 +242,33 @@ margin-bottom: 10px;
 border:1px solid black;
 }
 /* caracteristicas_contacto */
-#caracteristicas_contacto .ubicaciones {
+.caja{
+    float: left;
+    width: 33.3%;
+    text-align: center;
+    padding: 50px;
+    height: 250px;
+}
+.caja h4{
+    padding-bottom: 20px;
+}
+
+#caracteristicas_contacto .lugar {
     background: url('../media/locacion.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#caracteristicas_contacto .telefono{
+    background: url('../media/numero.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#caracteristicas_contacto .Email {
+    background: url('../media/email.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
