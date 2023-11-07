@@ -37,6 +37,10 @@ a{
     border: none;
     cursor: pointer;
 }
+.btn-con{
+    background: #4d4d4d;
+    
+}
 .btn-light{
     background: #fda94f;
 }
@@ -70,6 +74,12 @@ a{
 
 .clr {clear: both;
 }
+
+hr {
+    background: #fda94f;
+    height: 10px;
+}
+
 
 /* Barra de navegación*/
 #navbar .logo{
@@ -227,12 +237,12 @@ height: 675px;
 
 #contacto h1{
     padding-bottom: 20px;
-    font-weight: 10px;
+    font-weight: lighter;
 }
 
-#contact label{
+#contacto label{
     display: block;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 #contacto input,
 #contacto textarea {
@@ -243,6 +253,7 @@ border:1px solid black;
 }
 /* caracteristicas_contacto */
 .caja{
+
     float: left;
     width: 33.3%;
     text-align: center;
