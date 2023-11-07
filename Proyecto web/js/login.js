@@ -13,6 +13,4 @@ document.getElementById("loginButton").addEventListener("click", function() {
     }
 });
 
-document.getElementById("registrarse-btn").addEventListener("click", function(){
-    window.location.href = "registrar.html"
-})
+
