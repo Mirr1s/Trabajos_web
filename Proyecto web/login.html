@@ -2,24 +2,26 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="./css/login.css">
-    <title>Bienvenido | Hotel Boutique Gold</title>
+    <title>Iniciar Sesión - Hotel</title>
+    <link rel="stylesheet" href="./css/login.css">
 </head>
 <body>
-    <h1>Iniciar sesión</h1>
-    <form id="loginForm">
-        <label for="username">Nombre de usuario:</label>
-        <input type="text" id="username" name="username" required><br><br>
 
-        <label for="password">Contraseña:</label>
-        <input type="password" id="password" name="password" required><br><br>
-
-        <button type="button" id="loginButton">Iniciar sesión</button>
-        <button type="button" id="registerButton">Registrarse</button>
+<div class="inicio-sesion-form">
+    <h2>Iniciar Sesión</h2>
+    <form id="inicioSesionForm">
+        <div class="form-group">
+            <label for="nombreUsuario">Nombre de Usuario:</label>
+            <input type="text" id="nombreUsuario" name="nombreUsuario" required>
+        </div>
+        <div class="form-group">
+            <label for="contrasena">Contraseña:</label>
+            <input type="password" id="contrasena" name="contrasena" required>
+        </div>
+        <button type="submit" class="iniciar-sesion-btn">Iniciar Sesión</button>
     </form>
+    <button class="registrarse-btn">Registrarse</button>
+</div>
 
-    <p id="loginMessage"></p>
-    <script src="js/login.js"></script>
 </body>
 </html>
