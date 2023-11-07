@@ -281,6 +281,7 @@ border:1px solid black;
 text-align: center;
 color: #040D12
 }
+/*contenedor*/
 .city-gallery {
     width: 80%;
     margin: 20px auto;
@@ -305,6 +306,7 @@ color: #040D12
     width: 290px; /* Ancho aumentado */
     height: auto; /* Altura automática para mantener la relación de aspecto de la imagen */
     display: inline-block;
+    color: #555;
 }
 
 
@@ -336,10 +338,12 @@ img {
 
 .prev-button {
     left: 0;
+    color: #fda94f;
 }
 
 .next-button {
     right: 0;
+    color: #fda94f;
 }
 
 .py-100{
@@ -351,4 +355,40 @@ img {
     text-align: center;
     margin: 0;
     padding: 0;
+}
+/*contenedor estatico*/
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: #555;
+}
+
+
+.room {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    margin: 10px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.room img {
+    max-width: 175px; /* Ajusta el tamaño de la imagen según tus necesidades */
+    margin-right: 37px;
+}
+
+.room-info {
+    text-align: left;
+}
+
+#habitacion h3{
+    float: left;
+    margin-left: 38%;
+    margin-top: 10px;
+    font-weight: lighter;
+    color: #4d4d4d;
 }

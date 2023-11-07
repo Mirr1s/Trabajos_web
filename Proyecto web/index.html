@@ -19,7 +19,7 @@
                     <li><a href="./html/Nosotros.html">Nosotros</a></li>
 
                     <li><a href="./html/contacto.html">contacto</a></li>
-                    <li><a href="login.html">Iniciar sesion</a></li>
+                    <li><a href="registrar.html">Iniciar sesion</a></li>
                     
                 </ul>
             </div>
@@ -40,68 +40,94 @@
     </header>
     <section id="reserva" class="py-30">
         <div class="contenedor">
-        <h3>¡Haz tu reserva ahora!</h3>
-        <a href="./html/contacto.html" class="btn btn-dark">Hacer reserva</a>
+        <h3>Descubre alojamientos en distintas ciudades</h3>
     </div>
     </section>
-<section id="barra" class="py-100">
-    
     <div class="city-gallery">
         <button class="nav-button prev-button" onclick="moveSlider(-1)">◀</button>
         <div class="slider">
-            <div class="city-card">
-                <img src="media/bogota.jpeg" alt="París">
-                <p>Bogotá</p>
-            </div>
-            <div class="city-card">
-                <img src="media/cali.jpeg" alt="Nueva York">
-                <p>Cali</p>
-            </div>
-            <div class="city-card">
-                <img src="media/cartagena.jpeg" alt="Tokio">
-                <p>Cartagena</p>
-            </div>
-            <div class="city-card">
-                <img src="media/medellin.jpeg" alt="Tokio">
-                <p>Medellín</p>
-            </div>
-           
+            <a href="./html/bogota.html" class="city-card-link">
+                <div class="city-card">
+                    <img src="media/bogota.jpeg" alt="París">
+                    <p>Bogotá</p>
+                </div>
+            </a>
+            <a href="./html/cali.html" class="city-card-link">
+                <div class="city-card">
+                    <img src="media/cali.jpeg" alt="Nueva York">
+                    <p>Cali</p>
+                </div>
+            </a>
+            <a href="./html/cartagena.html" class="city-card-link">
+                <div class="city-card">
+                    <img src="media/cartagena.jpeg" alt="Tokio">
+                    <p>Cartagena</p>
+                </div>
+            </a>
+            <a href="./html/medellin.html" class="city-card-link">
+                <div class="city-card">
+                    <img src="media/medellin.jpeg" alt="Tokio">
+                    <p>Medellín</p>
+                </div>
+            </a>
+            <a href="./html/medellin.html" class="city-card-link">
+                <div class="city-card">
+                    <img src="media/medellin.jpeg" alt="Tokio">
+                    <p>PRUEBA</p>
+                </div>
+            </a>
+            <a href="./html/medellin.html" class="city-card-link">
+                <div class="city-card">
+                    <img src="media/medellin.jpeg" alt="Tokio">
+                    <p>PRUEBA</p>
+                </div>
+            </a>
             <!-- Agrega más ciudades aquí -->
         </div>
         <button class="nav-button next-button" onclick="moveSlider(1)">▶</button>
     </div>
-</section>
-
-    <section id="funciones">
-        <div class="box funciones-1">
-            <h4>Bogotá</h4>
-            <p>Lorem ipsum dolor sit amet consectetur 
-                adipisicing elit. Voluptas pariatur, 
-                tempora iusto nostrum laudantium cupiditate
-                nemo illum alias aspernatur iure.</p>
-        </div>
-        <div class="box funciones-2">
-            <h4>Cali</h4>
-            <p>Lorem ipsum dolor sit amet consectetur 
-                adipisicing elit. Voluptas pariatur, 
-                tempora iusto nostrum laudantium cupiditate
-                nemo illum alias aspernatur iure.</p>
-        </div>
-        <div class="box funciones-3">
-            <h4>Cartagena</h4>
-            <p>Lorem ipsum dolor sit amet consectetur 
-                adipisicing elit. Voluptas pariatur, 
-                tempora iusto nostrum laudantium cupiditate
-                nemo illum alias aspernatur iure.</p>
-        </div>
-        <div class="box funciones-4">
-            <h4>Medellín</h4>
-            <p>Lorem ipsum dolor sit amet consectetur 
-                adipisicing elit. Voluptas pariatur, 
-                tempora iusto nostrum laudantium cupiditate
-                nemo illum alias aspernatur iure.</p>
-        </div>
+    <section id="habitacion" class="py-30">
+        <div class="contenedor">
+        <h3>Habitaciones en descuento</h3>
+    </div>
     </section>
+        <div class="container" id="container">
+            <div class="room">
+                
+                <img src="media/habitacion bogota.jpg" alt="Habitación 1">
+                <div class="room-info">
+                    <a href="html/bogota.html" class="room-link"></a>
+                    <h2>Habitación Deluxe</h2>
+                    <p>Calificación: 4.8</p>
+                    <p>Precio: $200.000 por noche |  Antes: $250.000</p>
+                </div>
+            </div>
+            <div class="room">
+                <img src="media/habitacion bogota.jpg" alt="Habitación 2">
+                <div class="room-info">
+                    <h2>Suite Junior</h2>
+                    <p>Calificación: 4.2</p>
+                    <p>Precio: $180.000 por noche | Antes: $240.000</p>
+                </div>
+            </div>
+            <div class="room">
+                <img src="media/habitacion bogota.jpg" alt="Habitación 2">
+                <div class="room-info">
+                    <h2>Suite Ejecutiva</h2>
+                    <p>Calificación: 4.4</p>
+                    <p>Precio: $120.000 | Antes: $240.000</p>
+                </div>
+            </div>
+            <div class="room">
+                <img src="media/habitacion bogota.jpg" alt="Habitación 2">
+                <div class="room-info">
+                    <h2>Habitación Superior con Vista al Mar</h2>
+                    <p>Calificación: 4.7</p>
+                    <p>Precio: $300.000 por noche | Antes: $440.000</p>
+                </div>
+            </div>
+            <!-- Puedes agregar más habitaciones aquí -->
+        </div>
     <footer id="pie_de_pag">
         <p>&copy; 2023 Hotel Boutique Gold</p>
     </footer>
