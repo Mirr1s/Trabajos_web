@@ -1,0 +1,368 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/*Estilos Generales*/
+html,body{
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+}
+h1{
+    font-size: 39px;
+}
+h2{font-size: 31px;}
+h3{font-size: 25px;}
+h4{font-size: 20px;}
+
+p{
+    font-size: 1rem;
+}
+a{
+    text-decoration: none;
+    color: #4d4d4d;
+}
+/*clases*/
+.contenedor{
+    margin: auto;
+    max-width: 1100px;
+    overflow: auto;
+    padding: 0 20px;
+}
+.btn{
+    display: inline-block;
+    font-size: 18px;
+    color:#fff;
+    padding: 13px 20px;
+    border: none;
+    cursor: pointer;
+}
+.btn-light{
+    background: #fda94f;
+}
+.btn-dark{
+    background: #4d4d4d;
+    
+}
+.btn-ight:hover{
+    background: #fda94f;
+}
+.btn-dark:hover{
+    background: #737373;
+    
+}
+.py-80{
+    padding: 0px 0 5.5px;
+}
+.py-50{
+    padding: 50px 0;
+}
+.py-30{
+    padding: 24px 0 0px;
+}
+.box{
+    float: left;
+    width: 50%;
+    text-align: center;
+    padding: 50px;
+    height: 250px;
+    
+    
+}
+
+/* Barra de navegación*/
+#navbar .logo{
+    font-size: 2.3rem;
+    float: left;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+#navbar h1 a{
+    color: #fda94f;
+}
+#navbar ul{
+    float: right;
+    list-style: none;
+}
+#navbar ul li{
+    float: left;
+}
+#navbar ul li a{
+    display: block;
+    padding: 32px;
+    text-align: center;
+}
+#navbar ul li a .current,
+#navbar ul li a:hover{
+    color: #fda94f;
+}
+
+/*Showcase*/
+#showcase{
+    background: url('../media/hotel_3.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 45px 60px;
+    height: 300px;
+    text-align: center;
+}
+#showcase h1,
+#showcase{
+    padding-bottom: 20px;
+}
+
+/*Reserva*/
+#reserva h3{
+    float: left;
+    margin-left: 0%;
+    margin-top: 8px;
+    font-weight: lighter;
+    color: #4d4d4d;
+}
+#reserva a{
+    float: right;
+    margin-right: 120px;
+}
+
+/*cajas*/
+#funciones .funciones-1{
+    background: url('../media/bogota.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 5%;
+}
+
+#funciones .funciones-2{
+    background: url('../media/cali.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 5%;
+}
+
+#funciones .funciones-3{
+    background: url('../media/cartagena.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 5%;
+}
+
+#funciones .funciones-4{
+    background: url('../media/medellin.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 5%;
+}
+#funciones p{
+    background: rgb(77, 77, 77, 0.8);
+    padding: 20px; 
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+#funciones h4{
+color: white;}
+
+
+/* Nosotros */
+#Nosotros {
+    background: #F7CA44;
+    }
+#Nosotros .Nosotros_contenido {
+float:left;
+width:50%;
+}
+    
+#Nosotros .Nosotros_contenido h1 {
+font-weight:lighter;
+padding-bottom:20px;
+}
+
+#Nosotros .Nosotros_img {
+float: right;
+width: 50%;
+padding-right: 20px;
+}
+    
+#Nosotros .Nosotros_img img {
+width:100%;
+}
+/* Gerentes */
+#Gerentes {
+background: url('../media/fondo_gerentes.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+text-align: center;
+height: 675px;
+}
+
+#Gerentes h1{
+    font-weight: lighter;
+    padding-bottom: 20px;
+    color:black;
+}
+
+.contenido_gerentes {
+    background: rgb(77, 77, 77, 0.8);
+    padding: 20px; 
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.contenido_gerentes img {
+    float: left;
+    height: 50px;
+    border-radius: 50%;
+}
+
+/*Contacto*/
+#contacto{
+ color: black;
+}
+
+#contacto h1{
+    padding-bottom: 20px;
+    font-weight: 10px;
+}
+
+#contact label{
+    display: block;
+    margin-bottom: 10px;
+}
+#contacto input,
+#contacto textarea {
+width: 100%;
+padding: 10px;
+margin-bottom: 10px;
+border:1px solid black;
+}
+/* caracteristicas_contacto */
+#caracteristicas_contacto .ubicaciones {
+    background: url('../media/locacion.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+    
+
+/* pie_de_pag */
+#pie_de_pag {
+text-align: center;
+color: #040D12
+}
+
+.city-gallery {
+    width: 80%;
+    margin: 20px auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.slider {
+    display: flex;
+    overflow-x: hidden;
+    width: max-content;
+    transition: transform 0.5s;
+}
+
+.city-card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 290px; /* Ancho aumentado */
+    height: auto; /* Altura automática para mantener la relación de aspecto de la imagen */
+    display: inline-block;
+    color: #555;
+}
+
+
+
+img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.nav-button {
+    background-color: #555;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    opacity: 0.7;
+    z-index: 1;
+}
+
+.nav-button:hover {
+    opacity: 1;
+}
+
+.prev-button {
+    left: 1px;
+    color: #fda94f;
+}
+
+.next-button {
+    right: 0px;
+    color: #fda94f;
+}
+
+.py-100{
+    margin: auto;
+}
+#barra p{
+    font-family: Arial, sans-serif;
+    color: #000000;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+/*contenedor estatico*/
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: #555;
+}
+
+
+.room {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    margin: 10px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.room img {
+    max-width: 175px; /* Ajusta el tamaño de la imagen según tus necesidades */
+    margin-right: 37px;
+}
+
+.room-info {
+    text-align: left;
+}
+
+#habitacion h3{
+    float: left;
+    margin-left: 38%;
+    margin-top: 10px;
+    font-weight: lighter;
+    color: #4d4d4d;
+}

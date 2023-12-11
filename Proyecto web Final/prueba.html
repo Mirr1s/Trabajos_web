@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contenedores de Ciudades y Habitaciones</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav id="navbar" class="py-80">
+            <div class="contenedor">
+                <h1 class="logo"><a href="index.html">Hotel Boutique Gold</a></h1>
+                <ul>
+                    <li><a href="./html/Nosotros.html">Nosotros</a></li>
+
+                    
+                    <li><a href="login.html">Cerrar sesión</a></li>
+                </ul>
+            </div>
+            <div id="showcase" class="py-80">
+                <div class="contenedor">
+                    <h1>Bienvenido al Hotel Boutique Gold</h1>
+                    <p class="large">¡Bienvenidos a nuestro emocionante 
+                        mundo de hospitalidad única! En cada uno de nuestros 
+                        hoteles, hemos buscado capturar la esencia y el 
+                        encanto distintivo de las ciudades en las que nos encontramos
+                        sumergimos nuestros establecimientos en la cultura, la historia
+                        y la identidad de cada lugar.
+                    </p>
+                    <a href="./html/Nosotros.html" class="btn btn-light">Más información sobre Nosotros</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section id="reserva" class="py-30">
+        <div class="contenedor">
+        <h3>Descubre alojamientos en distintas ciudades</h3>
+    </div>
+    </section>
+
+
+    <div class="city-gallery">
+        <button class="nav-button prev-button" onclick="moveSlider(-1)">◀</button>
+        <div class="slider">
+            <div class="city-card">
+                <img src="media/bogota.jpeg" alt="París">
+                <p>Bogotá</p>
+            </div>
+            <div class="city-card">
+                <img src="media/cali.jpeg" alt="Nueva York">
+                <p>Cali</p>
+            </div>
+            <div class="city-card">
+                <img src="media/cartagena.jpeg" alt="Tokio">
+                <p>Cartagena</p>
+            </div>
+            <div class="city-card">
+                <img src="media/medellin.jpeg" alt="Tokio">
+                <p>Medellín</p>
+            </div>
+           
+            <!-- Agrega más ciudades aquí -->
+        </div>
+        <button class="nav-button next-button" onclick="moveSlider(1)">▶</button>
+    </div>
+    <div class="room-container">
+        <button class="nav-button prev-button" onclick="moveSlider(-1)">◀</button>
+        <div class="slider">
+            <div class="room-card">
+                <img src="room1.jpg" alt="Habitación 1">
+                <p class="room-name">Habitación Deluxe</p>
+                <p class="room-score">Puntaje: 4.5</p>
+                <p class="room-price">Precio: $150</p>
+                <p class="room-discount">Descuento: $30</p>
+            </div>
+            <div class="room-card">
+                <img src="room2.jpg" alt="Habitación 2">
+                <p class="room-name">Suite de Lujo</p>
+                <p class="room-score">Puntaje: 5.0</p>
+                <p class="room-price">Precio: $200</p>
+                <p class="room-discount">Descuento: $50</p>
+            </div>
+            <!-- Agrega más habitaciones aquí -->
+        </div>
+        <button class="nav-button next-button" onclick="moveSlider(1)">▶</button>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

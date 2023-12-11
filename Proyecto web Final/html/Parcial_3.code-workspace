@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"path": "../../Parcial_3"
+		}
+	],
+	"settings": {
+		"r.lsp.promptToInstall": false,
+		"git.ignoreLimitWarning": true
+	},
+	"launch": {
+		"version": "0.2.0",
+		"configurations": []
+	}
+}

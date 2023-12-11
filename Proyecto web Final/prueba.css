@@ -1,0 +1,96 @@
+/* Estilos para el contenedor de ciudades */
+.city-container {
+    width: 80%;
+    margin: 20px auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.city-container .slider {
+    display: flex;
+    overflow-x: hidden;
+    width: max-content;
+    transition: transform 0.5s;
+}
+
+.city-container .city-card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 250px;
+    display: inline-block;
+}
+
+.city-container img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.city-container .city-name {
+    font-weight: bold;
+}
+
+/* Estilos para el contenedor de habitaciones */
+.room-container {
+    width: 80%;
+    margin: 20px auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.room-container .slider {
+    display: flex;
+    overflow-x: hidden;
+    width: max-content;
+    transition: transform 0.5s;
+}
+
+.room-container .room-card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 250px;
+    display: inline-block;
+}
+
+.room-container img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.room-container .room-name {
+    font-weight: bold;
+}
+
+.room-container .room-score {
+    font-weight: bold;
+    color: #Fda94f; /* Color de puntaje */
+}
+
+.room-container .room-price {
+    font-weight: bold;
+}
+
+.room-container .discount-option {
+    display: block;
+    margin-top: 10px;
+}
+
+.room-container .discount-option label {
+    font-weight: normal;
+}
+
+.room-container .discount-label {
+    color: #Fda94f; /* Color de descuento */
+    font-weight: bold;
+}
+
+.room-container .room-original-price {
+    text-decoration: underline; /* Precio original subrayado */
+}

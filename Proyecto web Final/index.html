@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./css/index.css">
+    <title>Bienvenido | Hotel Boutique Gold</title>
+</head>
+<body>
+    <header>
+        <nav id="navbar" class="py-80">
+            <div class="contenedor">
+                <h1 class="logo"><a href="index.html">Hotel Boutique Gold</a></h1>
+                <ul>
+                    <li><a href="./html/Nosotros.html">Nosotros</a></li>
+
+                    
+                    <li><a href="login.html">Cerrar sesión</a></li>
+                </ul>
+            </div>
+            <div id="showcase" class="py-80">
+                <div class="contenedor">
+                    <h1>Bienvenido al Hotel Boutique Gold</h1>
+                    <p class="large">¡Bienvenidos a nuestro emocionante 
+                        mundo de hospitalidad única! En cada uno de nuestros 
+                        hoteles, hemos buscado capturar la esencia y el 
+                        encanto distintivo de las ciudades en las que nos encontramos
+                        sumergimos nuestros establecimientos en la cultura, la historia
+                        y la identidad de cada lugar.
+                    </p>
+                    <a href="./html/Nosotros.html" class="btn btn-light">Más información sobre Nosotros</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section id="reserva" class="py-30">
+        <div class="contenedor">
+        <h3>Descubre alojamientos en distintas ciudades</h3>
+    </div>
+    </section>
+
+
+    <div class="city-gallery">
+        <button class="nav-button prev-button" onclick="moveSlider(-1)">◀</button>
+        <div class="slider">
+            <a href="./html/bogota.html" class="city-card-link">
+                <div class="city-card">
+                    <img src="media/bogota.jpeg" alt="París">
+                    <p>Bogotá</p>
+                </div>
+            </a>
+            <a href="./html/cali.html" class="city-card-link">
+                <div class="city-card">
+                    <img src="media/cali.jpeg" alt="Nueva York">
+                    <p>Cali</p>
+                </div>
+            </a>
+            <a href="./html/cartagena.html" class="city-card-link">
+                <div class="city-card">
+                    <img src="media/cartagena.jpeg" alt="Tokio">
+                    <p>Cartagena</p>
+                </div>
+            </a>
+            <a href="./html/medellin.html" class="city-card-link">
+                <div class="city-card">
+                    <img src="media/medellin.jpeg" alt="Tokio">
+                    <p>Medellín</p>
+                </div>
+            </a>
+            <a href="./html/medellin.html" class="city-card-link">
+                <div class="city-card">
+                    <img src="media/medellin.jpeg" alt="Tokio">
+                    <p>PRUEBA</p>
+                </div>
+            </a>
+            <a href="./html/medellin.html" class="city-card-link">
+                <div class="city-card">
+                    <img src="media/medellin.jpeg" alt="Tokio">
+                    <p>PRUEBA</p>
+                </div>
+            </a>
+            <!-- Agrega más ciudades aquí -->
+        </div>
+        <button class="nav-button next-button" onclick="moveSlider(1)">▶</button>
+    </div>
+    <section id="habitacion" class="py-30">
+        <div class="contenedor">
+        <h3>Habitaciones en descuento</h3>
+    </div>
+    </section>
+       
+    <footer id="pie_de_pag">
+        <p>&copy; 2023 Hotel Boutique Gold</p>
+    </footer>
+    <script src="js/index.js"></script>
+</body>
+</html>
